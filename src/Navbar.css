@@ -1,0 +1,35 @@
+.navbar{
+    padding: 10px;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar img{
+    padding: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+.navbar a{
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #B7905A;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+}
+
+.navbar a.active {
+    text-decoration-line: underline;
+    text-decoration-color: #B7905A;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+}
