@@ -8,12 +8,8 @@
 }
 
 .image_grid img {
-    width: 100%;
-    max-width: 80px;
+    max-width: 100px;
     height: auto;
-    object-fit: contain;
-    border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    box-sizing: border-box;
 }

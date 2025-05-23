@@ -22,16 +22,16 @@ function Home(){
 function Accounts(){
     return(
         <div className="flex justify-center items-center space-x-6 py-15">
-            <a href="https://github.com/DymNomZ">
-                <img className="text-center w-13 h-13" src={github} alt="github"/>
+            <a className="account-link" href="https://github.com/DymNomZ">
+                <img className="w-13 h-13" src={github} alt="github"/>
             </a>
-            <a href="https://www.linkedin.com/in/dymierborgonia/">
+            <a className="account-link-square" href="https://www.linkedin.com/in/dymierborgonia/">
                 <img className="w-13 h-13" src={linkedin} alt="linkedin"/>
             </a>
-            <a href="https://www.instagram.com/dymnomz/">
+            <a className="account-link-square" href="https://www.instagram.com/dymnomz/">
                 <img className="w-13 h-13" src={instagram} alt="instagram"/>
             </a>
-            <a href="mailto:dymierborgonia@gmail.com">
+            <a className="account-link" href="mailto:dymierborgonia@gmail.com">
                 <img className="w-13 h-13" src={email} alt="email"/>
             </a>
         </div>

@@ -1,7 +1,17 @@
+import dart from './assets/dart.svg'
+import flutter from './assets/flutter.svg'
+import kotlin from './assets/kotlin.svg'
+import java from './assets/java.svg'
+import cpp from './assets/c++.svg'
+import c from './assets/c.svg'
+import react from './assets/react.svg'
+import javascript from './assets/javascript.svg'
+import tailwind from './assets/tailwind.svg'
+
 export const image_names = [
-        "dart", "java", "react",
-        "flutter", "c++", "javascript",
-        "kotlin", "c", "tailwind"
+        dart, java, react,
+        flutter, cpp, javascript,
+        kotlin, c, tailwind
     ];
 
 export const card_image_names = [

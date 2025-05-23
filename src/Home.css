@@ -1,0 +1,24 @@
+
+.account-link-square {
+  border-radius: 30%;
+  background-color: transparent;
+  text-decoration: none;
+
+  transition: background-color 0.2s ease-in-out;
+}
+
+.account-link {
+  border-radius: 50%;
+  background-color: transparent;
+  text-decoration: none;
+
+  transition: background-color 0.2s ease-in-out;
+}
+
+.account-link:hover {
+  background-color: #0d2e1d;
+}
+
+.account-link-square:hover {
+  background-color: #0d2e1d;
+}
