@@ -1,9 +1,25 @@
+
+
 button {
-  margin: 20px;
-  padding: 20px;
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
+
+  color: #a58f64;
+  letter-spacing: 0.5px;
+  border: 3px solid #a58f64;
+  border-radius: 9999px;
+  
   cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0d2e1d;
+  border-color: #bea882;
+  color: #bea882;
+}
+
+button:active {
+  background-color: #153126;
 }

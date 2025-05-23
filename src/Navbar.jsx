@@ -1,12 +1,14 @@
 import './Navbar.css'
+import shamrock from './assets/shamrock.svg'
 
 function Navbar(){
+    console.log('Shamrock import:', shamrock);
     return(
         <div className="navbar">
-            <img alt="gold shamrock"></img>
-            <a href="#home">Home</a>
-            <a href="#news">About</a>
-            <a href="#contact">Projects</a>
+            <img className="w-13 h-13 ml-5 mr-5" alt="shamrock" src={shamrock}></img>
+            <a href="#home" className="font-poppins font-regular text-xl text-white">Home</a>
+            <a href="#news" className="font-poppins font-regular text-xl text-white">About</a>
+            <a href="#contact" className="font-poppins font-regular text-xl text-white">Projects</a>
         </div>
     )
 }
