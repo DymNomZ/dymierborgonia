@@ -8,7 +8,7 @@ import react from './assets/react.svg'
 import javascript from './assets/javascript.svg'
 import tailwind from './assets/tailwind.svg'
 
-export const image_names = [
+export const svgs = [
         dart, java, react,
         flutter, cpp, javascript,
         kotlin, c, tailwind

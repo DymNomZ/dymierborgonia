@@ -1,6 +1,6 @@
 import './About.css'
 import ImageGrid from './components/ImageGrid'
-import {image_names} from './variables'
+import {svgs} from './variables'
 
 function About(){
     return(
@@ -21,7 +21,7 @@ function Technologies(){
                 <h3 className='text-xl mt-5 font-poppins font-regular text-center text-white'>Desktop</h3>
                 <h3 className='text-xl mt-5 font-poppins font-regular text-center text-white'>Web</h3>
             </div>
-            <ImageGrid items={image_names}/>
+            <ImageGrid items={svgs}/>
         </div>
     )
 }
